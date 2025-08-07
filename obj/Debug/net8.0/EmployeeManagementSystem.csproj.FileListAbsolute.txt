@@ -122,3 +122,5 @@
 /Users/nehaannareddy/EmployeeManagementSystem/obj/Debug/net8.0/EmployeeManagementSystem.pdb
 /Users/nehaannareddy/EmployeeManagementSystem/obj/Debug/net8.0/EmployeeManagementSystem.genruntimeconfig.cache
 /Users/nehaannareddy/EmployeeManagementSystem/obj/Debug/net8.0/ref/EmployeeManagementSystem.dll
+/Users/nehaannareddy/EmployeeManagementSystem/obj/Debug/net8.0/EmployeeManagementSystem.sourcelink.json
+/Users/nehaannareddy/EmployeeManagementSystem/bin/Debug/net8.0/Bogus.dll

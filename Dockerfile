@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copy everything and publish
 COPY . ./
-RUN dotnet publish -c Release -o out
+RUN dotnet publish "EmployeeManagementSystem.csproj" -c Release -o /app/out
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0

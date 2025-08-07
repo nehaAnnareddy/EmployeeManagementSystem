@@ -1,7 +1,12 @@
+using System;
+using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using EmployeeManagementSystem.Data;
 using EmployeeManagementSystem.Models;
 using Bogus;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -45,15 +50,18 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets(); 
+app.UseStaticFiles(); 
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Employee}/{action=Index}/{id?}"
-).WithStaticAssets(); 
+);
+
 
 app.Run();

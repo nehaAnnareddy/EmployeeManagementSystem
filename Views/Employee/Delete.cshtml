@@ -1,0 +1,17 @@
+@model EmployeeManagementSystem.Models.Employee
+
+<h2>Delete Employee</h2>
+
+<h4>Please confirm that you want to DELETE this employee</h4>
+<div>
+    <p><strong>Name:</strong> @Model.Name</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+    <p><strong>Date of Birth:</strong> @Model.DateOfBirth.ToShortDateString()</p>
+    <p><strong>Department:</strong> @Model.Department</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

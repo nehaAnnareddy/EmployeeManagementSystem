@@ -1,0 +1,60 @@
+@model List<EmployeeManagementSystem.Models.Employee>
+
+<h2>Employee List</h2>
+
+<a href="/Employee/Create" class="btn btn-success mb-3">Add New Employee</a>
+
+<form method="get" asp-action="Index" class="d-flex align-items-center gap-2 mb-3">
+    <label for="searchField" class="mb-0">Search by:</label>
+
+    <select name="searchField" class="form-select" style="width: 140px;">
+        <option value="Name" selected="@(Context.Request.Query["searchField"] == "Name")">Name</option>
+        <option value="Email" selected="@(Context.Request.Query["searchField"] == "Email")">Email</option>
+        <option value="Department" selected="@(Context.Request.Query["searchField"] == "Department")">Department</option>
+    </select>
+
+    <input type="text" name="searchTerm" class="form-control" style="width: 250px;"
+           placeholder="Search..." value="@Context.Request.Query["searchTerm"]" />
+
+    <button type="submit" class="btn btn-primary">Search</button>
+
+    <a href="/Employee" class="btn btn-outline-secondary">Clear Search</a>
+</form>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Date of Birth</th>
+            <th>Department</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="5">Sorry! We couldn't find any results for this search :(</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var emp in Model)
+            {
+                <tr>
+                    <td>@emp.Name</td>
+                    <td>@emp.Email</td>
+                    <td>@emp.DateOfBirth.ToShortDateString()</td>
+                    <td>@emp.Department</td>
+                    <td>
+                        <a href="/Employee/Edit/@emp.Id" class="btn btn-sm btn-warning">Edit</a>
+                        <a href="/Employee/Delete/@emp.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

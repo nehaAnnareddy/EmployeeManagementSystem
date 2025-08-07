@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "t9UQAOODxDA=",
+  "success": true,
+  "projectFilePath": "/Users/nehaannareddy/EmployeeManagementSystem/EmployeeManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "/Users/nehaannareddy/.nuget/packages/bogus/35.0.1/bogus.35.0.1.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.codecoverage/17.12.0/microsoft.codecoverage.17.12.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.entityframeworkcore/9.0.8/microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.8/microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.8/microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.entityframeworkcore.inmemory/9.0.8/microsoft.entityframeworkcore.inmemory.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.8/microsoft.extensions.caching.abstractions.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.caching.memory/9.0.8/microsoft.extensions.caching.memory.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.8/microsoft.extensions.dependencyinjection.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.8/microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.logging/9.0.8/microsoft.extensions.logging.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.8/microsoft.extensions.logging.abstractions.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.options/9.0.8/microsoft.extensions.options.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.extensions.primitives/9.0.8/microsoft.extensions.primitives.9.0.8.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.net.test.sdk/17.12.0/microsoft.net.test.sdk.17.12.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.testplatform.objectmodel/17.12.0/microsoft.testplatform.objectmodel.17.12.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/microsoft.testplatform.testhost/17.12.0/microsoft.testplatform.testhost.17.12.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/nunit/3.14.0/nunit.3.14.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/nehaannareddy/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "EmployeeManagementSystem depends on Bogus (>= 35.0.0) but Bogus 35.0.0 was not found. Bogus 35.0.1 was resolved instead.",
+      "projectPath": "/Users/nehaannareddy/EmployeeManagementSystem/EmployeeManagementSystem.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/nehaannareddy/EmployeeManagementSystem/EmployeeManagementSystem.csproj",
+      "libraryId": "Bogus",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

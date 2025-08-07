@@ -1,24 +1,25 @@
 # Employee Management System
 
-An ASP.NET Core Web API application that allows you to manage employees — including creating, viewing, updating, and deleting employee records from a database.
+This is an ASP.NET Core Web API application that allows you to manage employees. This includes creating, viewing, updating, searching and deleting employee records from a database.
 
 ## 🌐 Live Demo
 
-🔗 [Visit the hosted app](https://employeemanagementsystem-2wor.onrender.com/)
+🔗 [Visit the live hosted app (Via Render)](https://employeemanagementsystem-2wor.onrender.com/)
 
 ## 🔧 Features
 
 - RESTful API built with ASP.NET Core
 - CRUD operations for employee data
-- Uses Entity Framework Core and In-Memory Database
-- Designed for deployment to Azure App Service
+- Uses Entity Framework Core and In-Memory Database and LINQ
+- NUnit Unit tests
+- Designed for deployment to Azure App Service, but did not have an Azure Subscription
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
-- [Visual Studio](https://visualstudio.microsoft.com/) or any C# IDE
+- [Visual Studio](https://visualstudio.microsoft.com/) or any C# IDE. (I used JetBrains Rider as I used a Mac)
 - (Optional) [Postman](https://www.postman.com/) for API testing
 
 ### Clone the Repository

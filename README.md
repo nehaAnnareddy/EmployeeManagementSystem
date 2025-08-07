@@ -8,7 +8,7 @@ This is an ASP.NET Core Web API application that allows you to manage employees.
 
 ## 🔧 Features
 
-- RESTful API built with ASP.NET Core
+- RESTful API built with ASP.NET Core MVC
 - CRUD operations for employee data
 - Uses Entity Framework Core and In-Memory Database and LINQ
 - NUnit Unit tests
@@ -20,7 +20,6 @@ This is an ASP.NET Core Web API application that allows you to manage employees.
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
 - [Visual Studio](https://visualstudio.microsoft.com/) or any C# IDE. (I used JetBrains Rider as I used a Mac)
-- (Optional) [Postman](https://www.postman.com/) for API testing
 
 ### Clone the Repository
 

@@ -2,6 +2,10 @@
 
 An ASP.NET Core Web API application that allows you to manage employees — including creating, viewing, updating, and deleting employee records from a database.
 
+## 🌐 Live Demo
+
+🔗 [Visit the hosted app](https://employeemanagementsystem-2wor.onrender.com/)
+
 ## 🔧 Features
 
 - RESTful API built with ASP.NET Core
